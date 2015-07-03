@@ -1,0 +1,20 @@
+{
+  "name": "sc-downloader",
+  "version": "0.1.0",
+  "description": "Downloads audio, artwork, and metadata from Soundcloud",
+  "author": "Jacob Kelley",
+  "keywords": [],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bin": {
+    "sc": "bin/sc.js"
+  },
+  "dependencies": {
+    "async": "^1.3.0",
+    "commander": "^2.8.1",
+    "id3-writer": "^1.2.2",
+    "phantom": "^0.7.2",
+    "request": "^2.58.0"
+  }
+}
