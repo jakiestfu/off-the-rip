@@ -10,6 +10,7 @@
   "bin": {
     "sc": "bin/sc.js"
   },
+  "main": "index.js",
   "dependencies": {
     "async": "^1.3.0",
     "commander": "^2.8.1",
