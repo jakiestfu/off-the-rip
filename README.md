@@ -4,6 +4,7 @@
 ```sh
 brew install eyeD3 phantomjs
 npm install
+npm link # Gives you access to `sc` in your terminal
 ```
 
 ## Usage
