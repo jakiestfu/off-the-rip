@@ -7,6 +7,9 @@
 ## Installing
 ```sh
 npm i -g off-the-rip
+
+# Update
+npm update -g off-the-rip
 ```
 
 ## Developing
