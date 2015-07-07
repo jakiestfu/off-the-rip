@@ -1,6 +1,6 @@
 {
   "name": "sc-downloader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Downloads audio, artwork, and metadata from Soundcloud",
   "author": "Jacob Kelley",
   "keywords": [],

@@ -2,10 +2,15 @@
 
 ## Installation
 ```sh
+git clone https://github.com/jakiestfu/sc-downloader.git
+cd sc-downloader
 brew install eyeD3 phantomjs rtmpdump
 npm install
 npm link # Gives you access to `sc` in your terminal
 ```
+
+## Screenshot
+<img src="http://i.imgur.com/5dag8hT.jpg">
 
 ## Usage
 
