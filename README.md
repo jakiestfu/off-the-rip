@@ -2,7 +2,7 @@
 
 "Future Proof" method of downloading Soundcloud audio and embedding ID3 tags (title, artist, artwork) within the resulting file.
 
-<img src="http://i.imgur.com/yU3M87w.jpg">
+<img src="http://i.imgur.com/flBrvcn.jpg">
 
 ## Installing
 ```sh
