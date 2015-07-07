@@ -1,6 +1,6 @@
 {
   "name": "off-the-rip",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Downloads audio, artwork, and metadata from Soundcloud",
   "author": "Jacob Kelley",
   "keywords": [],
