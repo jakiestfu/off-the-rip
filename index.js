@@ -1,1 +1,1 @@
-module.exports = require('lib/downloader');
+module.exports = require('./lib/downloader');

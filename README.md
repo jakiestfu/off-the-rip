@@ -27,7 +27,7 @@ otr dl https://soundcloud.com/artist/track ~/Music
 
 ### Node
 ```javascript
-var otr = require('otr');
+var otr = require('off-the-rip');
 
 otr('https://soundcloud.com/artist/track', '~/Music', function() {
    // Done
