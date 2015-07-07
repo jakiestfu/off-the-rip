@@ -43,7 +43,7 @@ otr('https://soundcloud.com/artist/track', '~/Music', function() {
 * Data is sent to Node where ID3 tags including artwork is written to the dist folder
 
 ## Disclaimer
-This tool is in no way shape or form to be used for downloading copyrighted music, it is design and built as a proof-of-concept.
+This tool is in no way shape or form to be used for downloading copyrighted music, it is designed and built as a proof-of-concept.
 
 ## License
 MIT
