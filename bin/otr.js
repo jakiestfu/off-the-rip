@@ -18,7 +18,7 @@ commander
   .parse(process.argv);
 
 if (targetUrl) {
-  downloader(url, dest, process.exit);
+  downloader(targetUrl, destPath, process.exit);
 } else {
   commander.outputHelp();
 }
