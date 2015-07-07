@@ -23,9 +23,11 @@ npm link # Gives you access to `otr` in your terminal
 ## Usage
 
 ### CLI
-The CLI has only one command, `dl`. It takes two required parameters, `url` and `dir`.
+The CLI takes two parameters, `url` and `dir`. The second is optional.
 ```sh
-otr dl https://soundcloud.com/artist/track ~/Music
+otr https://soundcloud.com/artist/track ~/Music
+
+If a `dir` is not specified, the current directory will be used.
 ```
 
 ### Node
