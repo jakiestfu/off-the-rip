@@ -1,6 +1,6 @@
 {
-  "name": "sc-downloader",
-  "version": "0.2.0",
+  "name": "off-the-rip",
+  "version": "0.3.0",
   "description": "Downloads audio, artwork, and metadata from Soundcloud",
   "author": "Jacob Kelley",
   "keywords": [],
@@ -8,7 +8,7 @@
     "node": ">= 0.10.0"
   },
   "bin": {
-    "sc": "bin/sc.js"
+    "otr": "bin/otr.js"
   },
   "scripts": {
     "preinstall": "./scripts/pre-install.sh"
@@ -16,7 +16,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakiestfu/sc-downloader.git"
+    "url": "https://github.com/jakiestfu/off-the-rip.git"
   },
   "preferGlobal": true,
   "dependencies": {

@@ -1,4 +1,4 @@
-# Soundcloud Downloader
+# Off the Rip
 
 "Future Proof" method of downloading Soundcloud audio and embedding ID3 tags (title, artist, artwork) within the resulting file.
 
@@ -6,7 +6,7 @@
 
 ## Installing
 ```sh
-npm i -g sc-downloader
+npm i -g otr
 ```
 
 ## Developing
@@ -14,7 +14,7 @@ After cloning the repo...
 ```sh
 brew install eyeD3 phantomjs rtmpdump
 npm install
-npm link # Gives you access to `sc` in your terminal
+npm link # Gives you access to `otr` in your terminal
 ```
 
 ## Usage
@@ -22,14 +22,14 @@ npm link # Gives you access to `sc` in your terminal
 ### CLI
 The CLI has only one command, `dl`. It takes two required parameters, `url` and `dir`.
 ```sh
-sc dl https://soundcloud.com/artist/track ~/Music
+otr dl https://soundcloud.com/artist/track ~/Music
 ```
 
 ### Node
 ```javascript
-var scdl = require('scdl');
+var otr = require('otr');
 
-scdl('https://soundcloud.com/artist/track', '~/Music', function() {
+otr('https://soundcloud.com/artist/track', '~/Music', function() {
    // Done
 });
 ```
