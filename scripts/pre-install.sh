@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-  sudo apt-get install eyeD3 phantomjs rtmpdump
+  npm install -h phantomjs
+  sudo apt-get --assume-yes install eyeD3 rtmpdump
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   brew install eyeD3 phantomjs rtmpdump
 else

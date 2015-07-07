@@ -4,6 +4,7 @@
 
 <img src="http://i.imgur.com/flBrvcn.jpg">
 
+
 ## Installing
 ```sh
 npm i -g off-the-rip
@@ -15,7 +16,6 @@ npm update -g off-the-rip
 ## Developing
 After cloning the repo...
 ```sh
-brew install eyeD3 phantomjs rtmpdump
 npm install
 npm link # Gives you access to `otr` in your terminal
 ```
