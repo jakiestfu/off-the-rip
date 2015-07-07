@@ -10,7 +10,15 @@
   "bin": {
     "sc": "bin/sc.js"
   },
+  "scripts": {
+    "preinstall": "./scripts/pre-install.sh"
+  },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakiestfu/sc-downloader.git"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "async": "^1.3.0",
     "colors": "^1.1.2",
