@@ -2,7 +2,7 @@
 
 ## Installation
 ```sh
-brew install eyeD3 phantomjs
+brew install eyeD3 phantomjs rtmpdump
 npm install
 npm link # Gives you access to `sc` in your terminal
 ```
