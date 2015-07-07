@@ -6,7 +6,7 @@
 
 ## Installing
 ```sh
-npm i -g otr
+npm i -g off-the-rip
 ```
 
 ## Developing
@@ -40,7 +40,7 @@ otr('https://soundcloud.com/artist/track', '~/Music', function() {
 * Data is sent to Node where ID3 tags including artwork is written to the dist folder
 
 ## Disclaimer
-This tool is in no way shape or form to be used for downloading copywritten music.
+This tool is in no way shape or form to be used for downloading copywritten music, it is design and built as a proof-of-concept.
 
 ## License
 MIT
