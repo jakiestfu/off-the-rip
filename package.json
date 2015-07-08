@@ -25,6 +25,7 @@
     "commander": "^2.8.1",
     "id3-writer": "^1.2.2",
     "phantom": "^0.7.2",
+    "phantomjs": "Medium/phantomjs#version-2.0",
     "request": "^2.58.0",
     "rtmpdump": "^0.1.1"
   }
