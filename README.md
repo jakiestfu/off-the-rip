@@ -4,8 +4,18 @@
 
 <img src="http://i.imgur.com/flBrvcn.jpg">
 
+## Dependencies
+These dependencies must be met before attempting to install off-the-rip
+```sh
+# Mac
+brew install eyeD3 rtmpdump
+
+# Linux
+sudo apt-get --assume-yes install eyeD3 rtmpdump
+```
 
 ## Installing
+Once dependencies have been met, you can install off-the-rip
 ```sh
 npm i -g off-the-rip
 

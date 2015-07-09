@@ -1,6 +1,6 @@
 {
   "name": "off-the-rip",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "description": "Downloads audio, artwork, and metadata from Soundcloud",
   "author": "Jacob Kelley",
   "keywords": [],
@@ -10,9 +10,7 @@
   "bin": {
     "otr": "bin/otr.js"
   },
-  "scripts": {
-    "preinstall": "./scripts/pre-install.sh"
-  },
+  "scripts": {},
   "main": "index.js",
   "repository": {
     "type": "git",
