@@ -10,7 +10,7 @@ commander
   .arguments('<url> [dest]')
   .action(function(url, dest) {
     targetUrl = url;
-    destPath = dest || __dirname;
+    destPath = dest || './';
   });
 
 commander
