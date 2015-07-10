@@ -4,13 +4,22 @@ var commander = require('commander');
 var pkg = require('../package.json');
 
 var downloader = require('../lib/downloader');
+var targetUrl, destPath;
 
-commander.command('dl <url> <dest>').action(function(url, dest) {
-  downloader(url, dest, process.exit);
-});
+commander
+  .arguments('<url> [dest]')
+  .action(function(url, dest) {
+    targetUrl = url;
+    destPath = dest || __dirname;
+  });
 
-commander.version(pkg.version).parse(process.argv);
+commander
+  .version(pkg.version)
+  .parse(process.argv);
 
-if (!process.argv.slice(2).length) {
+if (targetUrl) {
+  downloader(targetUrl, destPath, process.exit);
+} else {
   commander.outputHelp();
 }
+
